@@ -39,7 +39,7 @@ export default function Project() {
       >
         {projects.map((project, index) => (
           <SwiperSlide key={index}>
-            <div className="flex flex-col lg:flex-row items-center gap-8">
+            <div className="flex-col max-w-7xl mx-auto lg:flex-row items-center gap-8">
               <img src={project.image} alt={project.title} className="rounded-xl w-full lg:w-1/2" />
               <div className="text-white space-y-4">
                 <h3 className="text-green-400 text-xl font-mono">{project.title}</h3>
