@@ -7,7 +7,6 @@ import Experience from './components/Experience'
 import Education from './components/Education'
 import Project from './components/Project'
 import MySkill from './components/MySkill'
-import BackToTop from './components/BacktoTop'
 
 function App() {
 
@@ -20,7 +19,6 @@ function App() {
       <Experience/>
       <Project/>
       <Services/>
-      <BackToTop/>
     <Footer/>
     </>
   )
