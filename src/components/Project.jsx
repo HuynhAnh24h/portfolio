@@ -29,7 +29,7 @@ export default function Project() {
   return (
     <section className="py-12 bg-black">
      <div className='max-w-7xl mx-auto'>
-     <h2 className="text-4xl font-bold text-green-400 mb-8">• Projects<br /><span className='text-white'>My Recent Works</span></h2>
+        <h2 className="text-4xl font-bold text-green-400 mb-8">• Projects<br /><span className='text-white'>My Recent Works</span></h2>
       <Swiper
         modules={[Navigation]}
         navigation

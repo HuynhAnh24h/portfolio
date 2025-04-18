@@ -29,9 +29,9 @@ export default function Header() {
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2"
-               viewBox="0 0 24 24">
+            viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round"
-                  d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
+              d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
           </svg>
         </button>
       </div>
@@ -43,7 +43,10 @@ export default function Header() {
           <a href="#resume" className="hover:text-[#14f195]">Resume</a>
           <a href="#contact" className="hover:text-[#14f195]">Contacts</a>
           <div className="flex space-x-4 mt-2">
-            
+            <FaXTwitter className="hover:text-green-400 transition" />
+            <FaInstagram className="hover:text-green-400 transition" />
+            <FaLinkedin className="hover:text-green-400 transition" />
+            <FaFacebookF className="hover:text-green-400 transition" />
           </div>
         </div>
       )}
