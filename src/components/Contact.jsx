@@ -29,10 +29,10 @@ export default function Contact() {
         body: new URLSearchParams(form).toString()
       });
 
-      toast.success("Gửi thành công! 🎉", { id: loadingToast });
+      toast.success("Send success", { id: loadingToast });
       setForm({ name: "", phone: "", service: "", message: "" });
     } catch (error) {
-        toast.error("Lỗi khi gửi! Vui lòng thử lại 😢", { id: loadingToast });
+        toast.error("Error", { id: loadingToast });
     }
   };
 
@@ -43,7 +43,7 @@ export default function Contact() {
             <div className="flex flex-col lg:flex-row justify-between items-center gap-5">
                 <div className="flex-row justify-items-start gap-1">
                     <h2 className="text-green-500 text-xl mb-2">• Contact</h2>
-                    <h3 className="text-5xl font-bold mb-10">Liên hệ với tôi</h3>
+                    <h3 className="text-5xl font-bold mb-10">Contac for me</h3>
                 </div>
                 <form onSubmit={handleSubmit} className="space-y-6 max-w-xl">
                     <input
