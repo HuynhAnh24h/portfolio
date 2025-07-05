@@ -18,7 +18,7 @@ function App() {
       <Education/>
       <MySkill/>
       <Experience/>
-      <Project/>
+      {/* <Project/> */}
       <Services/>
       <Contact/>
     <Footer/>

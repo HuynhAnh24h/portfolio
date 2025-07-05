@@ -2,9 +2,12 @@ import React from "react";
 import {
   FaWordpress,
   FaReact,
+  FaNodeJs,
+  FaCss3Alt,
+  FaHtml5,
+
 } from "react-icons/fa";
-import { BiLogoFlask } from "react-icons/bi";
-import { TbBrandDjango } from "react-icons/tb";
+ import { SiMongodb, SiMysql, SiPostgresql, SiHeroku, SiExpress, SiGraphql } from "react-icons/si";
 
 export default function Hero() {
   return (
@@ -30,14 +33,16 @@ export default function Hero() {
           </h1>
           <p className="text-gray-400 text-md leading-relaxed">
             &lt;p&gt; With expertise in cutting-edge technologies such as <br />
-            <span className="text-red-400">Django, Flask, ReactJS</span>... i deliver web <br />
+            <span className="text-red-400">Nodejs, Mongodb, Wordpress and ReactJS</span>... i deliver web <br />
             solutions that are both innovative and robust. &lt;/p&gt;
           </p>
 
           {/* Icon tech */}
           <div className="flex items-center space-x-4 pt-4 text-2xl">
-            <BiLogoFlask className="text-[#dd0031]" />
-            <TbBrandDjango className="text-[#14f195]" />
+              <FaHtml5 className="text-orange-400" />
+             <FaCss3Alt className="text-blue-400" />
+           <FaNodeJs className="text-green-400" />
+           <SiMongodb className="text-green-600" />
             <FaReact className="text-[#61dafb]" />
             <FaWordpress className="text-[#1C7A9B]" />
           </div>

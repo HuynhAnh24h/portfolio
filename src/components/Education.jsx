@@ -3,42 +3,32 @@ import { FaBook, FaSearch } from "react-icons/fa";
 
 const educationData = [
   {
-    year: "2016–2020",
-    title: "PhD",
-    desc: "Bachelor’s Degree in Computer Science",
+    year: "2017–2020",
+    title: "Hutech University",
+    desc: "Infomation Technology",
   },
   {
-    year: "2018–2022",
-    title: "Harvard university",
-    desc: "Certificate in React and Redux, Node.Js Developer Course",
-  },
-  {
-    year: "2010–2012",
-    title: "Oxford university",
-    desc: "Certification in Full Stack Web Development",
-  },
-  {
-    year: "2016–2020",
-    title: "Oxford university",
-    desc: "Certificate in React and Redux, Node.Js Developer Course",
+    year: "2020–2022",
+    title: "MindX",
+    desc: "Learning HTML, CSS, JS and ReactJS",
   },
 ];
 
 const researchData = [
   {
-    year: "2016–2020",
-    title: "Advanced Data Analytics with Big data Tools",
-    desc: "Utilized bid data tools for advanced analytics and insights.",
+    year: "2020-2022",
+    title: "Firegroup Technologi",
+    desc: "Technical Support Swift App, Transcy App and Alireview app in shopify platform",
   },
   {
-    year: "2018–2022",
-    title: "Cloud-Native Application Architectures",
-    desc: "Studied best practices for designing cloud-native applications.",
+    year: "2022-2023",
+    title: "Wordpress Developer",
+    desc: "Build website with wordpress ( html, css, js, PHP) theme and plugin with Elementor and ACF Custom Field Plugin",
   },
   {
-    year: "2016–2020",
-    title: "AI-Driven User Experience Personalization",
-    desc: "Leveraged AI to personalize user experiences based on behavior.",
+    year: "2024 - Today ",
+    title: "IT helpdesk and Freelancer FrontEnd Web Developer",
+    desc: "Using React JS design UX/UI for website and mini app ( chanchan-survay, sayakamanagement) and write some API with nodejs and mongodb",
   },
 ];
 

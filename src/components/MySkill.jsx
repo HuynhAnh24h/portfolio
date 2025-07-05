@@ -19,21 +19,16 @@ import {
                 <FaHtml5 className="hover:text-orange-400" />
                 <FaReact className="hover:text-cyan-400" />
                 <FaGitAlt className="hover:text-red-500" />
-                <SiPostgresql className="hover:text-blue-500" />
                 <SiMongodb className="hover:text-green-600" />
-                <FaPython className="hover:text-yellow-500" />
-                <FaDocker className="hover:text-blue-300" />
-                <FaAws className="hover:text-orange-300" />
                 <FaWordpress className="hover:text-[#1C7A9B]" />
             </div>
     
             {/* Text List */}
             <div className="text-gray-300 text-md font-mono space-y-4 border border-gray-700 p-6 rounded-xl w-full">
-                <p>• <span className="text-white">Front-End:</span> HTML, CSS, JavaScript, React, Angular</p>
-                <p>• <span className="text-white">Back-End:</span> Node.js, Express, Python, Django</p>
-                <p>• <span className="text-white">Databases:</span> MySQL, PostgreSQL, MongoDB</p>
-                <p>• <span className="text-white">Tools & Platforms:</span> Git, Docker, AWS, Heroku</p>
-                <p>• <span className="text-white">Others:</span> RESTful APIs, GraphQL, Agile Methodologies</p>
+                <p>• <span className="text-white">Front-End:</span> HTML, CSS, JavaScript, React</p>
+                <p>• <span className="text-white">Back-End:</span> Node.js, Express, JWT</p>
+                <p>• <span className="text-white">Tools & Platforms:</span> Git,Vercel, Render, MongoDB Cloud</p>
+                <p>• <span className="text-white">Others:</span> RESTful APIs</p>
             </div>
             </div>
         </div>
