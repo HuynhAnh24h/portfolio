@@ -34,11 +34,6 @@ const services = [
     title: "E-commerce Solutions",
     desc: "Crafting visually appealing and user-friendly interface using HTML, CSS, Javascript, and modern frameworks like React and Angular.",
   },
-  {
-    icon: <FaRobot />,
-    title: "Integrating AI",
-    desc: "Crafting visually appealing and user-friendly interface using HTML, CSS, Javascript, and modern frameworks like React and Angular.",
-  },
 ];
 
 export default function Services() {
