@@ -58,7 +58,7 @@ export default function Education() {
         <div className="bg-[#0d0d0d] p-6 rounded-xl border border-[#1f1f1f]">
           <h3 className="text-xl text-white flex items-center gap-2 mb-6">
             <FaSearch className="text-green-400" />
-            Researched
+            Company
           </h3>
           <div className="space-y-6 relative border-l border-gray-600 pl-4">
             {researchData.map((item, index) => (
